@@ -3,24 +3,24 @@ import { GraduationCap, Briefcase, Calendar } from 'lucide-react';
 
 const educationData = [
   {
-    title: 'B.Tech in Computer Science (AI/ML)',
-    organization: 'Dronacharya College of Engineering',
-    period: '2023 - 2027',
+    title: 'B.Sc PSE',
+    organization: 'Hindu College [DU]',
+    period: '2024 - 2027',
     score: '8.2 CGPA',
-    description: 'Specializing in Artificial Intelligence and Machine Learning with strong foundation in Data Structures and Algorithms.',
+    description: '//Details',
   },
   {
     title: 'Higher Secondary (12th)',
     organization: 'G.D. Goenka Public School',
-    period: '2022 - 2023',
-    score: '88%',
+    period: '2023 - 2024',
+    score: '80%',
     description: 'Completed with focus on Science and Mathematics.',
   },
   {
     title: 'Secondary Education (10th)',
     organization: 'Meenakshi Public School',
-    period: '2020 - 2021',
-    score: '93%',
+    period: '2021 - 2022',
+    score: '94%',
     description: 'Completed secondary education with excellent academic performance.',
   },
 ];
