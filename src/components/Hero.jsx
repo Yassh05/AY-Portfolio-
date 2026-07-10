@@ -49,7 +49,7 @@ const Hero = () => {
             <p className="hero-subtitle">Welcome to my portfolio</p>
             <h1 className="hero-name">
               <span className="text-foreground">I'm </span>
-              <span className="text-gradient glow-text text-accent">Yash Sharma</span>
+              <span className="text-gradient glow-text text-accent">Anushka Yadav</span>
             </h1>
             <h2 className="hero-role">
               {displayedText}
@@ -137,7 +137,7 @@ const Hero = () => {
               <div className="hero-profile-image">
                 <img
                   src="https://yassh05.github.io/PORTFOLIO/gaara.jpg"
-                  alt="Yash Sharma"
+                  alt="Anushka Yadav"
                 />
               </div>
             </div>
