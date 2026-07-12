@@ -69,10 +69,10 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.3 }}
             >
               <a
-                href="/YASH_RESUME.pdf"
+                href="/ANUSHKA_RESUME.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                download="Yash_Resume.pdf"
+                download="Anushka_Resume.pdf"
                 className="btn btn-primary"
               >
                 <Download size={20} />
@@ -91,14 +91,20 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.5 }}
             >
               <a
-                href="https://www.linkedin.com/in/yashsharma05/"
+                href="https://www.linkedin.com/in/anushka-yadav-309057330/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon"
               >
                 <Linkedin size={24} />
               </a>
-              <a
+              {/* <a
+                href="mailto:anushkaa7906@gmail.com"
+                className="social-icon"
+              >
+                <Mail size={24} />
+              </a> */}
+              {/* <a
                 href="https://github.com/Yassh05"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -121,7 +127,7 @@ const Hero = () => {
                 className="social-icon"
               >
                 <Binary size={24} />
-              </a>
+              </a> */}
             </motion.div>
           </motion.div>
 
