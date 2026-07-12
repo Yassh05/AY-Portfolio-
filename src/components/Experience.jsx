@@ -3,10 +3,10 @@ import { GraduationCap, Briefcase, Calendar } from 'lucide-react';
 
 const educationData = [
   {
-    title: 'B.Sc PSE',
+    title: 'B.Sc Electronics',
     organization: 'Hindu College [DU]',
     period: '2024 - 2027',
-    score: '8.2 CGPA',
+    score: '7.7 CGPA',
     description: '//Details',
   },
   {
@@ -18,7 +18,7 @@ const educationData = [
   },
   {
     title: 'Secondary Education (10th)',
-    organization: 'Meenakshi Public School',
+    organization: 'DR VSEC, Kanpur',
     period: '2021 - 2022',
     score: '94%',
     description: 'Completed secondary education with excellent academic performance.',
@@ -27,10 +27,10 @@ const educationData = [
 
 const experienceData = [
   {
-    title: 'IT & AI Intern',
-    organization: 'Subros Limited',
-    period: 'Jun 2025 - Aug 2025',
-    description: 'Developed and implemented face detection and recognition models using Python, OpenCV, and machine learning libraries.',
+    title: 'Photography Intern',
+    organization: 'YOHO',
+    period: 'Oct 2024 - Dec 2024',
+    description: 'Conceptualized and executed professional product photography for footwear collections, supporting marketing campaigns and elevating brand visual identity.',
   }
 ];
 
