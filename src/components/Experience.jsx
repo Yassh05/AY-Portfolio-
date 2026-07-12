@@ -27,6 +27,12 @@ const educationData = [
 
 const experienceData = [
   {
+    title: 'Graphic Design Lead',
+    organization: 'Vivre – The Film & Photography Society, Hindu College',
+    period: 'May 2025 - May 2026',
+    description: 'Spearheaded end-to-end design and branding of posters, social media creatives, and event materials, enhancing society visibility across campus. Managed and mentored the creative team, ensuring timely and high-quality output for all society projects and events. Maintained visual consistency across all promotional campaigns and digital platforms, reinforcing a cohesive brand identity.',
+  },
+  {
     title: 'Photography Intern',
     organization: 'YOHO',
     period: 'Oct 2024 - Dec 2024',
