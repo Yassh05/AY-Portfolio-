@@ -3,6 +3,21 @@ import { motion } from 'framer-motion';
 
 const certifications = [
   {
+    title: 'Goldman Sachs Operations Job Simulation',
+    issuer: 'Goldman Sachs - Forage',
+    date: '2025',
+    tags: ['Operations', 'Data Analysis', 'Business Problem-Solving'],
+    verified: true,
+  },
+  {
+    title: 'BCG Introduction to Strategy Consulting Job Simulation',
+    issuer: 'BCG - Forage',
+    date: '2025',
+    tags: ['Strategy Consulting', 'Analytical Thinking', 'Case Studies'],
+    verified: true,
+  },
+  /*
+  {
     title: 'Introduction to Machine Learning',
     issuer: 'NPTEL ONLINE CERTIFICATION',
     date: 'Nov 2025',
@@ -65,6 +80,7 @@ const certifications = [
     tags: ['Algorithms', 'C++', 'OOP'],
     verified: true,
   },
+  */
 ];
 
 const containerVariants = {
