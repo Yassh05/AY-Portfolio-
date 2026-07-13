@@ -39,7 +39,7 @@ const skillCategories = [
   {
     category: 'Tools & Technologies',
     skills: [
-      { name: 'Canva', icon: 'https://api.iconify.design/logos/canva.svg' },
+      { name: 'Canva', icon: 'https://api.iconify.design/simple-icons/canva.svg?color=%2300ff88' },
       { name: 'MS Excel', icon: 'https://api.iconify.design/vscode-icons/file-type-excel.svg' },
       { name: 'PowerPoint', icon: 'https://api.iconify.design/vscode-icons/file-type-powerpoint.svg' },
     ],
