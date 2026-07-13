@@ -39,9 +39,9 @@ const skillCategories = [
   {
     category: 'Tools & Technologies',
     skills: [
-      { name: 'Canva', icon: 'https://cdn.simpleicons.org/canva/00C4CC' },
-      { name: 'MS Excel', icon: 'https://cdn.simpleicons.org/microsoftexcel/217346' },
-      { name: 'PowerPoint', icon: 'https://cdn.simpleicons.org/microsoftpowerpoint/B7472A' },
+      { name: 'Canva', icon: 'https://api.iconify.design/logos/canva.svg' },
+      { name: 'MS Excel', icon: 'https://api.iconify.design/vscode-icons/file-type-excel.svg' },
+      { name: 'PowerPoint', icon: 'https://api.iconify.design/vscode-icons/file-type-powerpoint.svg' },
     ],
   },
 ];
