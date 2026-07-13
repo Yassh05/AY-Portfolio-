@@ -7,7 +7,7 @@ const educationData = [
     organization: 'Hindu College [DU]',
     period: '2024 - 2027',
     score: '7.7 CGPA',
-    description: '//Details',
+    description: 'Analytical and creative undergraduate pursuing B.Sc. Electronics at Hindu College with strong foundation in Python, SQL, Excel, and problem-solving, hands-on experience in analytics, graphic design, and operations through internships and consulting simulations.',
   },
   {
     title: 'Higher Secondary (12th)',
