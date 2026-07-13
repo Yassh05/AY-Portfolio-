@@ -2,7 +2,7 @@ import { Download, Github, Linkedin, Code2, Binary } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 
-const roles = ['Frontend Developer', 'AI/ML Enthusiast', 'Problem Solver', 'Gamer'];
+const roles = ['Graphic Designer', 'Student', 'Problem Solver', 'Gamer'];
 
 const Hero = () => {
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
@@ -56,9 +56,9 @@ const Hero = () => {
               <span className="hero-cursor">|</span>
             </h2>
             <p className="hero-description">
-              Computer Science student specializing in Artificial Intelligence and Machine Learning
-              with a strong foundation in Data Structures, Algorithms, and Web Development.
-              Skilled in problem-solving and programming, with a passion for tackling real-world technical challenges.
+              Analytical and creative undergraduate pursuing B.Sc. Electronics at Hindu College with hands-on experience in social media analytics, 
+              graphic design, and operations through internships and consulting simulations. Strong foundation in Python, SQL, Excel, and problem-solving,
+              complemented by leadership experience managing creative teams. Passionate about leveraging data and strategic thinking to drive business impact.
             </p>
 
             {/* CTA Buttons */}
