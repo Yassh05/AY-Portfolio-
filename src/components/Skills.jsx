@@ -5,18 +5,18 @@ const skillCategories = [
     category: 'Technical Skills',
     skills: [
       { name: 'Python', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
-      { name: 'SQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azuresqldatabase/azuresqldatabase-original.svg' },
+      { name: 'SQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
       { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
       { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
   ],
   },
   {
-    category: 'Ceative Skills',
+    category: 'Creative Skills',
     skills: [
-      { name: 'Graphic Design', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-      { name: 'Photography', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
-      { name: 'Event Branding', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
-      { name: 'Social Media Design', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg' },
+      { name: 'Graphic Design', icon: 'https://api.iconify.design/mdi/palette.svg?color=%2300ff88' },
+      { name: 'Photography', icon: 'https://api.iconify.design/mdi/camera.svg?color=%2300ff88' },
+      { name: 'Event Branding', icon: 'https://api.iconify.design/mdi/calendar-star.svg?color=%2300ff88' },
+      { name: 'Social Media Design', icon: 'https://api.iconify.design/mdi/instagram.svg?color=%2300ff88' },
     ],
   },
   // {
@@ -29,19 +29,19 @@ const skillCategories = [
   {
     category: 'Soft Skills',
     skills: [
-      { name: 'Leadership', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg' },
-      { name: 'Communication', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg' },
-      { name: 'Team Management', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg' },
-      { name: 'Problem Solving', icon: 'https://seaborn.pydata.org/_images/logo-mark-lightbg.svg' },
-      { name: 'Analytical Thinking', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg' },
+      { name: 'Leadership', icon: 'https://api.iconify.design/mdi/account-star.svg?color=%2300ff88' },
+      { name: 'Communication', icon: 'https://api.iconify.design/mdi/message-text.svg?color=%2300ff88' },
+      { name: 'Team Management', icon: 'https://api.iconify.design/mdi/account-group.svg?color=%2300ff88' },
+      { name: 'Problem Solving', icon: 'https://api.iconify.design/mdi/puzzle.svg?color=%2300ff88' },
+      { name: 'Analytical Thinking', icon: 'https://api.iconify.design/mdi/chart-line.svg?color=%2300ff88' },
     ],
   },
   {
     category: 'Tools & Technologies',
     skills: [
-      { name: 'Canva', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
-      { name: 'MS Excel', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
-      { name: 'PowerPoint', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },  
+      { name: 'Canva', icon: 'https://cdn.simpleicons.org/canva/00C4CC' },
+      { name: 'MS Excel', icon: 'https://cdn.simpleicons.org/microsoftexcel/217346' },
+      { name: 'PowerPoint', icon: 'https://cdn.simpleicons.org/microsoftpowerpoint/B7472A' },
     ],
   },
 ];
