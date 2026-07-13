@@ -69,7 +69,7 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.3 }}
             >
               <a
-                href="/ANUSHKA_RESUME.pdf"
+                href="/Anushka_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 download="Anushka_Resume.pdf"
