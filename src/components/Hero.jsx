@@ -1,4 +1,4 @@
-import { Download, Github, Linkedin, Code2, Binary } from 'lucide-react';
+import { Download, Github, Linkedin, Code2, Binary, Mail } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 
@@ -98,12 +98,12 @@ const Hero = () => {
               >
                 <Linkedin size={24} />
               </a>
-              {/* <a
+              <a
                 href="mailto:anushkaa7906@gmail.com"
                 className="social-icon"
               >
                 <Mail size={24} />
-              </a> */}
+              </a>
               {/* <a
                 href="https://github.com/Yassh05"
                 target="_blank"
