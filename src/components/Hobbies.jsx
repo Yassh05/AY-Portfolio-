@@ -1,27 +1,27 @@
-import { Flag, Tv, Gamepad2, Music, Plane, Dumbbell, Trophy } from 'lucide-react';
+import { Tv, Music, Plane, Palette, BookOpen, Camera } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const hobbies = [
   {
-    title: 'Formula 1',
-    description: 'Passionate F1 fan following every race weekend. Love the strategy, engineering, and adrenaline of motorsport.',
-    icon: Flag,
-    color: 'text-red-500',
-    bgColor: 'bg-red-500-10',
-  },
-  {
-    title: 'UFC / MMA',
-    description: 'Big fan of UFC and mixed martial arts. Following fighters, studying techniques, and never missing a big fight night.',
-    icon: Dumbbell,
+    title: 'Sketching',
+    description: 'Love putting pencil to paper — sketching portraits, patterns, and little everyday moments to unwind and stay creative.',
+    icon: Palette,
     color: 'text-accent',
     bgColor: 'bg-accent-10',
   },
   {
-    title: 'Football',
-    description: 'Love the beautiful game! Whether watching or playing, football brings excitement, teamwork, and unforgettable moments.',
-    icon: Trophy,
+    title: 'Reading',
+    description: 'An avid reader — from fiction to self-development books, reading fuels my imagination and broadens my perspective.',
+    icon: BookOpen,
     color: 'text-green-500',
     bgColor: 'bg-green-500-10',
+  },
+  {
+    title: 'Photography',
+    description: 'Capturing moments and aesthetics through the lens — from product shoots to candid frames that tell a story.',
+    icon: Camera,
+    color: 'text-pink-500',
+    bgColor: 'bg-pink-500-10',
   },
   {
     title: 'Anime',
@@ -31,18 +31,11 @@ const hobbies = [
     bgColor: 'bg-purple-500-10',
   },
   {
-    title: 'Gaming',
-    description: 'Enjoy gaming in my free time - from competitive multiplayer to immersive single-player experiences.',
-    icon: Gamepad2,
-    color: 'text-primary',
-    bgColor: 'bg-primary-10',
-  },
-  {
     title: 'Music',
     description: 'Always have headphones on. Love discovering new artists and genres - music fuels my coding sessions.',
     icon: Music,
-    color: 'text-pink-500',
-    bgColor: 'bg-pink-500-10',
+    color: 'text-primary',
+    bgColor: 'bg-primary-10',
   },
   {
     title: 'Exploring',
@@ -86,10 +79,10 @@ const Hobbies = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="section-title">
-            Beyond <span className="text-gradient">Code</span>
+            <span className="text-gradient">Hobbies</span>
           </h2>
           <p className="section-subtitle">
-            When I'm not coding, here's what keeps me entertained
+            A few things I love doing outside of work and studies
           </p>
         </motion.div>
 
@@ -115,22 +108,6 @@ const Hobbies = () => {
           ))}
         </motion.div>
 
-        {/* Fun F1 & UFC Banner */}
-        <motion.div
-          className="hobby-banner"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-100px' }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-        >
-          <h3 className="hobby-banner-title">
-            <span className="text-red-500">F1</span> x <span className="text-accent">UFC</span> Enthusiast
-          </h3>
-          <p className="hobby-banner-text">
-            Weekends are for race days and fight nights. From the Monaco Grand Prix to the UFC octagon,
-            I'm always hyped for the action. Who's your favorite driver and fighter? Let's chat!
-          </p>
-        </motion.div>
       </div>
     </section>
   );
