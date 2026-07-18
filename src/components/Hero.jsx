@@ -91,7 +91,7 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.5 }}
             >
               <a
-                href="https://www.linkedin.com/in/anushka-yadav-309057330/"
+                href="https://www.linkedin.com/in/anushka-y-309057330/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-icon"

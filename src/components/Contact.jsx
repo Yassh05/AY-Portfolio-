@@ -92,7 +92,8 @@ const Contact = () => {
               <h4 className="font-display text-lg font-semibold mb-4">Follow Me</h4>
               <div className="flex gap-4">
                 <a
-                  href="https://www.linkedin.com/in/anushka-yadav-309057330/"
+                  href="https://www.linkedin.com/in/anushka-y-309057330/q
+                  "
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact-social"
