@@ -32,7 +32,7 @@ const hobbies = [
   },
   {
     title: 'Music',
-    description: 'Always have headphones on. Love discovering new artists and genres - music fuels my coding sessions.',
+    description: 'Always have headphones on. Love discovering new artists and genres - music fuels my creative sessions.',
     icon: Music,
     color: 'text-primary',
     bgColor: 'bg-primary-10',
@@ -108,6 +108,22 @@ const Hobbies = () => {
           ))}
         </motion.div>
 
+        {/* Photography x Sketching Banner */}
+        <motion.div
+          className="hobby-banner"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-100px' }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+        >
+          <h3 className="hobby-banner-title">
+            <span className="text-pink-500">Photography</span> x <span className="text-accent">Sketching</span> Soul
+          </h3>
+          <p className="hobby-banner-text">
+            Whether it's framing the perfect shot through a lens or losing hours to a sketchbook,
+            I'm happiest when I'm creating something. Got a favorite artist or photographer? Let's swap inspiration!
+          </p>
+        </motion.div>
       </div>
     </section>
   );
