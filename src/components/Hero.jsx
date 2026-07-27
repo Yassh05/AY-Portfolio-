@@ -142,7 +142,7 @@ const Hero = () => {
               <div className="hero-profile-glow" />
               <div className="hero-profile-image">
                 <img
-                  src="https://yassh05.github.io/PORTFOLIO/gaara.jpg"
+                  src="/pfp.jpeg"
                   alt="Anushka Yadav"
                 />
               </div>
